@@ -1,0 +1,145 @@
+body {
+  background: url('assets/pppv3red.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+.links {
+  width: 100px;
+  height: 390px;
+  background-color: blanchedalmond;
+  border-bottom-left-radius:30px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  box-sizing: inherit;
+  font-size: 100%;
+  align-self: baseline;
+  text-align: center;
+}
+.moodchanger {
+  width: 100px;
+  height: 25px;
+  background-color: indianred;
+}
+p1 {
+  color: white;
+  font-size: 10px;
+  font-family: "raleway", "Helvetica";
+  text-transform: uppercase;
+}
+.blue {
+  width: 35px;
+  height: 25px;
+  background-color: cornflowerblue;
+  text-align: center;
+  padding-top: 3px;
+  
+}
+mark {
+    color:white;
+    background-color:indianred;
+    padding: 0.5em;
+    }
+ul {
+  padding: 20px;
+}
+li{
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+li:hover {
+  background-color: yellow;
+  transform:scale(1.2) 
+}
+img {
+  height: 197px;
+  width: 197px;
+  margin-left: 30px;
+  margin-right: 0px;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(0%);
+}
+img:hover {
+  transform: scale(1.14);
+  filter: grayscale(0%);
+  box-shadow: hsla(0, 0%, 0%, .5) 5px 5px 40px;
+  }
+.profile-card {
+  width: 900px;
+  height: auto;
+  background-color: blanchedalmond;
+  border-radius: 2px;
+  border-top-left-radius: 30px;
+  box-shadow: hsla(0, 0%, 0%, .9) 10px 10px 80px;
+  margin-right: 120px;
+  padding: 0;
+  box-sizing: content-box;
+  font-size: 100%;
+}
+.tabella {
+    padding-top: 3px;
+    }
+h1 {
+  font-family: "raleway", "Helvetica";
+  font-size: 35px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+h2 {
+  font-family: "raleway", "Helvetica";
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+h3 {
+  font-family: "raleway", "Helvetica";
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+table, th, td, caption {
+  border-collapse: collapse;
+  text-align: left;
+  font-kerning: auto
+}
+th,td {
+    padding-bottom: 10px;
+}
+th {
+    font-size: 20px
+}
+table {
+  width: 95%;
+  margin: 20px auto;
+  font-family: "raleway", "Helvetica";
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+p {
+  font-family: "raleway", "Helvetica";
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  text-align: left;
+  margin-right: 30px;
+  margin-left: 100px;
+  line-height: 1.8;
+} 
+hr {
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-top: 19px;
+  border: 0; border-top: 1px solid black;
+}
